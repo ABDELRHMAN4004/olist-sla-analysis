@@ -40,6 +40,77 @@ It contains information about:
 
 ---
 
+## 📑 Table of Contents
+
+### **1. Data Preparation**
+
+* Feature engineering
+
+---
+
+### **2. Data Overview**
+
+* What is the total number of orders?
+* Customers distribution in each city
+* Total orders in each state
+* Best-selling categories
+* Are there categories that experience longer delivery times?
+* What percentage of customers placed more than one order?
+* How many orders have already been delivered?
+* What is the average actual delivery time?
+
+---
+
+### **3. SLA Compliance**
+
+* How many orders were delivered on time?
+* How many orders were delayed beyond the SLA?
+* What is the compliance rate with the SLA?
+* What is the average number of delay days?
+* What is the maximum delay observed?
+* States with the most delivery delays
+* Most delayed product in each state
+
+---
+
+### **4. Geographic Performance**
+
+* Which states have the highest delay rates?
+* Which states have the best delivery performance?
+
+---
+
+### **5. Delivery Time Analysis**
+
+* Average actual delivery time vs estimated
+* Distribution of delivery times
+* Trend over time
+
+---
+
+### **6. Seller Impact**
+
+* Top 10 sellers with delays (with at least 10 orders)
+* Top 10 sellers with earliest delivery
+
+---
+
+### **7. Customer Satisfaction Impact**
+
+* Does a delay affect customer ratings?
+
+---
+
+### **8. Root Cause Analysis**
+
+* Filter data based on delayed orders only
+* Represent time distribution
+* Handle outliers and negative values
+* Distance between customers and sellers
+* Remove outliers
+
+---
+
 ## 🛠️ Tools & Technologies
 
 * Python
@@ -72,11 +143,37 @@ It contains information about:
 
 ## 📈 Visualizations
 
-Some of the analysis results:
+Some of the key analysis results:
 
-![Delay Distribution](images/delay_distribution.png)
+---
+
+### 📊 Top 10 Best-Selling Categories
+![Top Categories](images/top_categories.png)
+
+---
+
+### 📍 Top Delayed States
 ![Top Delayed States](images/top_states.png)
-![Top Delayed Products](images/top_products.png)
+
+---
+
+### 📦 Top Delayed State-Category Combinations
+![State Category Delay](images/state_category_delay.png)
+
+---
+
+### ⏱️ Categories with Longest Delivery Time
+![Longest Delivery Categories](images/longest_delivery_categories.png)
+
+---
+
+### 📉 Average Delivery Delay (Days)
+![Average Delay](images/avg_delay.png)
+
+---
+
+### ⭐ Impact of Delay on Customer Ratings
+![Delay vs Rating](images/delay_vs_rating.png)
 
 ---
 
