@@ -153,7 +153,7 @@ Some of the key analysis results:
 ---
 
 ### 📍 Top Delayed States
-![Top Delayed States](images/top_states.png)
+![Top Delayed States](images/top_delay_states.png)
 
 ---
 
@@ -163,7 +163,7 @@ Some of the key analysis results:
 ---
 
 ### ⏱️ Categories with Longest Delivery Time
-![Longest Delivery Categories](images/longest_delivery_categories.png)
+![Longest Delivery Categories](images/longest_delivery.png)
 
 ---
 
@@ -207,7 +207,7 @@ olist-sla-analysis/
 
 ## 📽️ Presentation
 
-[View Presentation](#)  <!-- Replace with your link -->
+[View Presentation](/presentation/Presentation.pdf)
 
 ---
 
